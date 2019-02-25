@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title:string = 'westeros';
-  season_8:boolean = false
+  season_8:boolean = false;
 
   characters:string[] = ["Tyrian", "Deanerys", "The Hound", "Aria"]
 
