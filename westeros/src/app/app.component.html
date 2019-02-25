@@ -1,0 +1,17 @@
+Hi I'm here.  Welcome to {{title}}.
+
+My counter is : {{counter}}
+
+<button (click)="bump()">Click me</button>
+
+<button (click)="reveal()">show or hide</button>
+
+<div *ngIf="season_8"> Welcome to the Season 8 Premiere!
+</div>
+
+<ul>
+  <li *ngFor="let character of characters"> {{characters}}</li>
+</ul>
+
+
+<router-outlet></router-outlet>
